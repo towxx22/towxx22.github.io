@@ -140,8 +140,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.map((product) => (
               <Link key={product.id} href={`/product/${product.id}`}>
-                <a>
-                  <Card className="border-glow-cyan hover-lift bg-card/40 backdrop-blur-md overflow-hidden cursor-pointer group border border-border/30 h-full flex flex-col">
+                <Card className="border-glow-cyan hover-lift bg-card/40 backdrop-blur-md overflow-hidden cursor-pointer group border border-border/30 h-full flex flex-col">
                     <div className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5 flex items-center justify-center rounded-2xl">
                       <img
                         src={product.logo}
@@ -179,8 +178,7 @@ export default function Home() {
                         </a>
                       </div>
                     </div>
-                  </Card>
-                </a>
+                </Card>
               </Link>
             ))}
           </div>

@@ -162,11 +162,9 @@ export default function ProductDetail() {
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">제품을 찾을 수 없습니다</h1>
           <Link href="/">
-            <a>
-              <button className="glass-btn px-8 py-3 rounded-lg font-semibold">
-                메인 페이지로 돌아가기
-              </button>
-            </a>
+            <button className="glass-btn px-8 py-3 rounded-lg font-semibold">
+              메인 페이지로 돌아가기
+            </button>
           </Link>
         </div>
       </div>
@@ -178,11 +176,9 @@ export default function ProductDetail() {
       {/* Navigation */}
       <nav className="border-b border-border/20 backdrop-blur-sm sticky top-0 z-50">
         <div className="container flex items-center justify-between h-16">
-          <Link href="/">
-            <a className="flex items-center gap-2 hover:text-primary transition">
-              <ArrowLeft className="h-5 w-5" />
-              <span>돌아가기</span>
-            </a>
+          <Link href="/" className="flex items-center gap-2 hover:text-primary transition">
+            <ArrowLeft className="h-5 w-5" />
+            <span>돌아가기</span>
           </Link>
           <div className="text-2xl font-bold glow-cyan">2X</div>
           <div className="w-24"></div>
